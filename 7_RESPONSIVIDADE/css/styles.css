@@ -1,0 +1,30 @@
+/*Media query*/
+h3{
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    h3{
+        color: blue;
+    }
+}
+p{
+    background-color: red;
+    color: black;
+}
+
+@media screen and (min-width: 800px){
+    p{
+        color: aqua;
+        background-color: blueviolet;
+    }
+    
+}
+
+h4{
+    display: none;
+}
+@media screen and (orientation: landscape) and (max-width: 400px){
+    h4{
+        display: block;
+    }
+}
